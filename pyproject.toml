@@ -4,8 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ccv_generator"
-version = "0.1.0"
+version = "0.1.1"
 description = "Command line tool and library to parse and generate Canadian Common CV (CCV) files"
+project_urls = { "Source" = "https://github.com/m-damien/CCV-Generator" }
 authors = [{ name = "Damien Masson" }]
 license = { text = "MIT" }
 readme = "README.md"
