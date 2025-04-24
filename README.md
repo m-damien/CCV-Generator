@@ -8,7 +8,7 @@ The code can also be used as an API to build CCV generators.
 
 ## Installation
 ```bash
-pip install ccv-generator
+pip install ccv_generator
 ```
 
 ## Usage (Command line)
