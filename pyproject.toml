@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccv_generator"
+version = "0.1.0"
+description = "Command line tool and library to parse and generate Canadian Common CV (CCV) files"
+authors = [{ name = "Damien Masson" }]
+license = { text = "MIT" }
+readme = "README.md"
+dependencies = [
+    "platformdirs==4.3.6",
+    "Requests==2.32.3",
+    "ruamel.base==1.0.0"
+]
+
+[project.scripts]
+ccv_generator = "ccv_generator.cli:main"
